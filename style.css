@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(169, 139, 190);
+    font-family: cursive;
+}
+
+header {
+    background-color: peachpuff;
+    width: 100%;
+    margin: 2px;
+    position: sticky;
+
+}
+
+h2 {
+    background-color: rgb(24, 66, 24);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(24, 66, 24);
+    color: white;
+}
+
+ul {
+    text-align: right;
+    margin: 20px;
+}
+
+#nav-1 {
+    background-color: rgb(24, 66, 24);
+    display: inline;
+    color: white;
+    font-size: 19px;
+    margin: 15px;
+
+}
+
+#nav-2 {
+    background-color: rgb(24, 66, 24);
+    display: inline;
+    color: white;
+    font-size: 19px;
+    margin: 15px;
+}
+
+#nav-3 {
+    background-color: rgb(24, 66, 24);
+    display: inline;
+    color: white;
+    font-size: 19px;
+    margin: 15px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    color: rgb(24, 66, 24);
+    font-size: 20px;
+    margin: 16px;
+    font-family: cursive;
+    
+}
+
+.form {
+    border: 5px solid peachpuff;
+    width: 30%;
+    margin: auto;
+    
+}
+
+.contact-button {
+    color: white
+}
