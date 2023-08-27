@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: rgb(169, 139, 190);
     font-family: cursive;
@@ -77,6 +81,13 @@ figcaption {
 
 .contact-button {
     color: white
+
+}
+
+.contact-button:hover {
+    color: blue; 
+    
+
 }
  .inputbox {
     display: flex;
@@ -88,3 +99,63 @@ figcaption {
 
     
  }
+
+ .content {
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ .content p {
+    background-color: peachpuff;
+ }
+
+ .content p::first-letter {
+    font-size: 3rem;
+ }
+
+ .flex-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+
+ }
+
+ .flex-container {
+    display: flex;
+    height: 100%;
+    background-color: peachpuff;
+    border: rgb(24, 66, 24);
+    width: 400px;
+    height: 400px;
+ }
+
+ .flex-container h3 {
+    
+    background-color: rgb(24, 66, 24);
+    color: white;
+    height: 30px;
+    width: 400px;
+    text-align: center;
+ }
+
+.flex-container img {
+    width: 42%;
+    display; block;
+    margin: auto;
+}
+
+.flex-container p {
+    text-align: center;
+}
+
+#andromeda {
+    width: 70%;
+   
+}
+
+h4 {
+    text-align: center;
+}
+ 
+ 
